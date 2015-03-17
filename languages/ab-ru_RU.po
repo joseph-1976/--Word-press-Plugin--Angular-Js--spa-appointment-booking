@@ -1,0 +1,2119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bookly v4.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-10 12:16+0200\n"
+"PO-Revision-Date: 2015-03-10 12:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ ab
+#: ../backend/AB_Backend.php:60
+#: ../backend/modules/calendar/templates/calendar.php:8
+msgid "Calendar"
+msgstr "Календарь"
+
+# @ ab
+#: ../backend/AB_Backend.php:61
+msgid "Staff members"
+msgstr "Персонал"
+
+# @ ab
+#: ../backend/AB_Backend.php:62
+#: ../backend/modules/service/templates/index.php:2
+#: ../backend/modules/staff/templates/edit.php:33
+msgid "Services"
+msgstr "Сервисы"
+
+# @ ab
+#: ../backend/AB_Backend.php:63
+#: ../backend/modules/calendar/templates/_appointment_form.php:58
+#: ../backend/modules/customer/templates/index.php:2
+msgid "Customers"
+msgstr "Клиенты"
+
+# @ ab
+#: ../backend/AB_Backend.php:64
+#: ../backend/modules/notifications/templates/index.php:2
+msgid "Notifications"
+msgstr "Уведомления"
+
+# @ ab
+#: ../backend/AB_Backend.php:65
+#: ../backend/modules/customer/templates/index.php:29
+#: ../backend/modules/payment/templates/index.php:10
+#: ../backend/modules/settings/templates/index.php:8
+msgid "Payments"
+msgstr "Платежи"
+
+# @ ab
+#: ../backend/AB_Backend.php:66
+#: ../backend/modules/appearance/templates/index.php:3
+msgid "Appearance"
+msgstr "Внешний вид"
+
+# @ ab
+#: ../backend/AB_Backend.php:67
+#: ../backend/modules/settings/templates/index.php:2
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../backend/AB_Backend.php:68
+msgid "Export"
+msgstr "Экспорт"
+
+#: ../backend/AB_Backend.php:69
+#: ../backend/modules/coupons/templates/index.php:2
+#: ../backend/modules/settings/templates/_paymentsForm.php:21
+msgid "Coupons"
+msgstr "Купоны"
+
+# @ ab
+#: ../backend/AB_Backend.php:70
+msgid "Custom fields"
+msgstr "Пользовательские поля"
+
+# @ ab
+#: ../backend/modules/appearance/AB_AppearanceController.php:60
+#: ../backend/modules/calendar/templates/calendar.php:14
+#: ../backend/modules/export/AB_ExportController.php:33
+#: ../backend/modules/payment/AB_PaymentController.php:112
+#: ../frontend/AB_Frontend.php:36
+msgid "Today"
+msgstr "Сегодня"
+
+# @ ab
+#: ../backend/modules/appearance/AB_AppearanceController.php:63
+#: ../frontend/AB_Frontend.php:39
+msgid "Next month"
+msgstr "Следующий месяц"
+
+#: ../backend/modules/appearance/AB_AppearanceController.php:64
+#: ../frontend/AB_Frontend.php:40
+msgid "Previous month"
+msgstr "Предыдущий месяц"
+
+# @ ab
+#: ../backend/modules/appearance/templates/_1_service.php:70
+#: ../backend/modules/appearance/templates/_1_service.php:157
+#: ../backend/modules/appearance/templates/_3_details.php:36
+#: ../backend/modules/appearance/templates/_4_payment.php:66
+#: ../frontend/modules/booking/templates/1_service.php:54
+#: ../frontend/modules/booking/templates/1_service.php:114
+#: ../frontend/modules/booking/templates/3_details.php:90
+#: ../frontend/modules/booking/templates/4_payment.php:104
+#: ../frontend/modules/booking/templates/4_payment.php:121
+#: ../frontend/modules/booking/templates/4_payment.php:131
+#: ../lib/payment/PayPal.php:136
+msgid "Next"
+msgstr "Далее"
+
+# @ ab
+#: ../backend/modules/appearance/templates/_1_service.php:154
+#: ../backend/modules/appearance/templates/_2_time.php:337
+#: ../backend/modules/appearance/templates/_3_details.php:33
+#: ../backend/modules/appearance/templates/_4_payment.php:63
+#: ../frontend/modules/booking/templates/1_service.php:111
+#: ../frontend/modules/booking/templates/2_time.php:46
+#: ../frontend/modules/booking/templates/2_time.php:54
+#: ../frontend/modules/booking/templates/3_details.php:87
+#: ../frontend/modules/booking/templates/4_payment.php:101
+#: ../frontend/modules/booking/templates/4_payment.php:118
+#: ../frontend/modules/booking/templates/4_payment.php:128
+#: ../lib/payment/PayPal.php:135
+msgid "Back"
+msgstr "Назад"
+
+# @ ab
+#: ../backend/modules/appearance/templates/_2_time.php:7
+msgid ""
+"<b>[[SERVICE_NAME]]</b> - name of service, <b>[[STAFF_NAME]]</b> - name of "
+"staff,"
+msgstr ""
+"<b>[[SERVICE_NAME]]</b> - название  сервиса, <b>[[STAFF_NAME]]</b> - имя "
+"работника,"
+
+# @ ab
+#: ../backend/modules/appearance/templates/_2_time.php:7
+msgid "<b>[[CATEGORY_NAME]]</b> - name of category."
+msgstr "<b>[[CATEGORY_NAME]]</b> - название категории."
+
+# @ ab
+#: ../backend/modules/appearance/templates/_3_details.php:7
+msgid ""
+"<b>[[STAFF_NAME]]</b> - name of staff,  <b>[[SERVICE_NAME]]</b> - name of "
+"service,"
+msgstr ""
+"<b>[[STAFF_NAME]]</b> - имя работника,  <b>[[SERVICE_NAME]]</b> - название "
+"сервиса,"
+
+# @ ab
+#: ../backend/modules/appearance/templates/_3_details.php:7
+msgid ""
+"<b>[[SERVICE_TIME]]</b> - time of service,  <b>[[SERVICE_DATE]]</b> - date "
+"of service,"
+msgstr ""
+"<b>[[SERVICE_TIME]]</b> - время сервиса,  <b>[[SERVICE_DATE]]</b> - дата "
+"сервиса,"
+
+# @ ab
+#: ../backend/modules/appearance/templates/_3_details.php:7
+msgid ""
+"<b>[[SERVICE_PRICE]]</b> - price of service, <b>[[CATEGORY_NAME]]</b> - name "
+"of category."
+msgstr ""
+"<b>[[SERVICE_PRICE]]</b> - цена сервиса, <b>[[CATEGORY_NAME]]</b> - название "
+"категории."
+
+# @ ab
+#: ../backend/modules/appearance/templates/_4_payment.php:9
+msgid "<b>[[SERVICE_PRICE]]</b> - price of service"
+msgstr "<b>[[SERVICE_PRICE]]</b> - цена сервиса"
+
+# @ ab
+#: ../backend/modules/appearance/templates/_4_payment.php:35
+#: ../frontend/modules/booking/templates/4_payment.php:55
+msgid "I will pay now with PayPal"
+msgstr "Я оплачу через PayPal"
+
+# @ ab
+#: ../backend/modules/appearance/templates/_4_payment.php:42
+#: ../backend/modules/appearance/templates/_4_payment.php:52
+#: ../frontend/modules/booking/templates/4_payment.php:69
+#: ../frontend/modules/booking/templates/4_payment.php:83
+msgid "I will pay now with Credit Card"
+msgstr "Я оплачу кредитной картой"
+
+#: ../backend/modules/appearance/templates/_card_payment.php:4
+#: ../frontend/modules/booking/templates/_card_payment.php:4
+msgid "Credit Card Number"
+msgstr "Номер карты"
+
+#: ../backend/modules/appearance/templates/_card_payment.php:10
+#: ../frontend/modules/booking/templates/_card_payment.php:10
+msgid "Expiration Date"
+msgstr "Срок действия"
+
+#: ../backend/modules/appearance/templates/_card_payment.php:27
+#: ../frontend/modules/booking/templates/_card_payment.php:27
+msgid "Card Security Code"
+msgstr "CVV/CVC"
+
+# @ ab
+# @ default
+#: ../backend/modules/appearance/templates/index.php:6
+#: ../backend/modules/settings/AB_SettingsController.php:44
+#: ../backend/modules/settings/AB_SettingsController.php:50
+#: ../backend/modules/settings/AB_SettingsController.php:55
+#: ../backend/modules/settings/AB_SettingsController.php:67
+#: ../backend/modules/settings/AB_SettingsController.php:75
+#: ../backend/modules/settings/AB_SettingsController.php:83
+#: ../backend/modules/staff/templates/edit.php:13
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+# @ ab
+#: ../backend/modules/appearance/templates/index.php:21
+msgid "Show form progress tracker"
+msgstr "Показывать индикатор прогресса"
+
+# @ ab
+#: ../backend/modules/appearance/templates/index.php:29
+msgid "Show calendar"
+msgstr "Показывать календарь"
+
+#: ../backend/modules/appearance/templates/index.php:35
+msgid "Show blocked timeslots"
+msgstr "Показывать недоступные интервалы"
+
+#: ../backend/modules/appearance/templates/index.php:41
+msgid "Show each day in one column"
+msgstr "Показывать каждый день в отдельной колонке"
+
+#: ../backend/modules/appearance/templates/index.php:88
+msgid "Click on the underlined text to edit."
+msgstr "Кликните на подчёркнутый текст, чтобы изменить его."
+
+# @ ab
+#: ../backend/modules/appearance/templates/index.php:97
+#: ../backend/modules/staff/templates/edit.php:148
+#: ../backend/modules/staff/templates/schedule.php:100
+#: ../backend/modules/staff/templates/services.php:90
+msgid "Update"
+msgstr "Обновить"
+
+# @ ab
+# @ default
+#: ../backend/modules/appearance/templates/index.php:101
+#: ../backend/modules/notifications/templates/index.php:56
+#: ../backend/modules/settings/templates/_hoursForm.php:27
+#: ../backend/modules/settings/templates/_paymentsForm.php:126
+#: ../backend/modules/staff/templates/edit.php:149
+#: ../backend/modules/staff/templates/schedule.php:102
+#: ../backend/modules/staff/templates/services.php:91
+msgid "Reset"
+msgstr "Сбросить"
+
+# @ ab
+#: ../backend/modules/calendar/AB_CalendarController.php:70
+msgid "New appointment"
+msgstr "Новая встреча"
+
+# @ ab
+#: ../backend/modules/calendar/AB_CalendarController.php:71
+msgid "Edit appointment"
+msgstr "Редактировать встречу"
+
+# @ ab
+#: ../backend/modules/calendar/AB_CalendarController.php:72
+#: ../backend/modules/coupons/AB_CouponsController.php:36
+#: ../backend/modules/customer/AB_CustomerController.php:41
+#: ../backend/modules/service/AB_ServiceController.php:42
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+# @ ab
+#: ../backend/modules/calendar/AB_CalendarController.php:73
+#: ../backend/modules/customer/templates/index.php:24
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:23
+#: ../backend/modules/export/AB_ExportController.php:70
+#: ../backend/modules/settings/templates/_companyForm.php:34
+#: ../backend/modules/staff/templates/edit.php:94 ../installer.php:113
+#: ../lib/AB_Google.php:148 ../updates.php:275
+msgid "Phone"
+msgstr "Телефон"
+
+# @ ab
+#: ../backend/modules/calendar/AB_CalendarController.php:74
+#: ../backend/modules/customer/templates/index.php:25
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:29
+#: ../backend/modules/export/AB_ExportController.php:71
+#: ../backend/modules/staff/templates/edit.php:86 ../installer.php:114
+#: ../lib/AB_Google.php:147 ../updates.php:276
+msgid "Email"
+msgstr "Электронная почта"
+
+# @ ab
+#: ../backend/modules/calendar/AB_CalendarController.php:82
+#: ../backend/modules/calendar/templates/calendar.php:12
+msgid "Week"
+msgstr "Неделя"
+
+#: ../backend/modules/calendar/AB_CalendarController.php:459
+msgid "The number of customers should be not more than "
+msgstr "Количество клиентов не должно превышать число "
+
+#: ../backend/modules/calendar/AB_CalendarController.php:462
+msgid "Start time must not be empty"
+msgstr "Время начала не должно быть пустым"
+
+#: ../backend/modules/calendar/AB_CalendarController.php:464
+msgid "End time must not be empty"
+msgstr "Время окончания не должно быть пустым"
+
+#: ../backend/modules/calendar/AB_CalendarController.php:466
+msgid "End time must not be equal to start time"
+msgstr "Время окончания не должно равняться времени начала"
+
+#: ../backend/modules/calendar/AB_CalendarController.php:526
+msgid "Signed up"
+msgstr "Забронировано"
+
+#: ../backend/modules/calendar/AB_CalendarController.php:527
+#: ../backend/modules/service/templates/list.php:11
+#: ../backend/modules/staff/templates/services.php:26
+#: ../backend/modules/staff/templates/services.php:62
+msgid "Capacity"
+msgstr "Вместимость"
+
+#: ../backend/modules/calendar/AB_CalendarController.php:539
+#: ../backend/modules/calendar/AB_CalendarController.php:680
+#: ../lib/entities/AB_Appointment.php:255
+msgid "Untitled"
+msgstr "Без имени"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:8
+#: ../backend/modules/payment/templates/index.php:71
+msgid "Provider"
+msgstr "Сотрудник"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:16
+#: ../backend/modules/export/AB_ExportController.php:65
+#: ../backend/modules/payment/templates/index.php:72 ../installer.php:101
+#: ../installer.php:107 ../updates.php:263 ../updates.php:269
+msgid "Service"
+msgstr "Сервис"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:20
+msgid "Please select a service"
+msgstr "Пожалуйста, выберите сервис"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:23
+msgid "-- Select a service --"
+msgstr "-- Выберите сервис --"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:29
+#: ../backend/modules/payment/templates/index.php:68
+msgid "Date"
+msgstr "Дата"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:37
+msgid "Period"
+msgstr "Период"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:41
+msgid "The selected period is occupied by another appointment"
+msgstr "Выбранный период занят другой встречей"
+
+# @ ab
+# @ default
+#: ../backend/modules/calendar/templates/_appointment_form.php:44
+#: ../backend/modules/settings/templates/_hoursForm.php:18
+msgid " to "
+msgstr "до"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:50
+msgid ""
+"The selected period does't match default duration for the selected service"
+msgstr ""
+"Выбранный период времени не совпадает со стандартным временем длительности "
+"выбранного сервиса"
+
+#: ../backend/modules/calendar/templates/_appointment_form.php:59
+msgid "Selected / maximum"
+msgstr "Выбрано / максимум"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:64
+#: ../backend/modules/calendar/templates/_custom_fields_form.php:5
+msgid "Edit custom fields values"
+msgstr "Редактировать пользовательские поля"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:65
+msgid "Remove customer"
+msgstr "Удалить клиента из списка"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:71
+msgid "Please select a customer"
+msgstr "Пожалуйста, выберите клиента"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:75
+msgid "-- Search customers --"
+msgstr "-- Поиск клиентов --"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:90
+msgid "Send email notifications"
+msgstr "Отправить уведомления по эл. почте"
+
+#: ../backend/modules/calendar/templates/_appointment_form.php:95
+msgid ""
+"If email notifications are enabled and you want the customer or the staff "
+"member to be notified about this appointment after saving, tick this "
+"checkbox before clicking Save."
+msgstr ""
+"Если уведомления по эл. почте включены, и вы хотите, чтобы клиент и/или "
+"исполнитель получили уведомление сразу после сохранения этой встречи, "
+"поставьте тут галочку перед тем как нажать на кнопку Сохранить."
+
+# @ default
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:106
+#: ../backend/modules/custom_fields/templates/index.php:16
+#: ../backend/modules/settings/templates/_companyForm.php:44
+#: ../backend/modules/settings/templates/_generalForm.php:133
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:118
+#: ../backend/modules/settings/templates/_hoursForm.php:26
+#: ../backend/modules/settings/templates/_paymentsForm.php:125
+#: ../backend/modules/settings/templates/_purchaseCodeForm.php:21
+msgid "Save"
+msgstr "Сохранить"
+
+# @ default
+# @ ab
+#: ../backend/modules/calendar/templates/_appointment_form.php:107
+#: ../backend/modules/calendar/templates/_custom_fields_form.php:51
+#: ../backend/modules/customer/templates/_import.php:36
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:88
+#: ../backend/modules/service/templates/index.php:40
+#: ../backend/modules/staff/AB_StaffController.php:259
+#: ../backend/modules/staff/templates/_breaks.php:66
+#: ../backend/modules/staff/templates/new.php:29
+#: ../backend/modules/staff/templates/schedule.php:81
+msgid "Cancel"
+msgstr "Отмена"
+
+# @ ab
+#: ../backend/modules/calendar/templates/_custom_fields_form.php:50
+#: ../backend/modules/export/AB_ExportController.php:40
+#: ../backend/modules/payment/AB_PaymentController.php:119
+#: ../frontend/modules/booking/templates/4_payment.php:32
+msgid "Apply"
+msgstr "Применить"
+
+# @ ab
+#: ../backend/modules/calendar/templates/calendar.php:11
+msgid "Day"
+msgstr "День"
+
+# @ ab
+#: ../backend/modules/calendar/templates/calendar.php:45
+msgid " All services"
+msgstr "Все сервисы"
+
+# @ ab
+#: ../backend/modules/calendar/templates/calendar.php:51
+#: ../backend/modules/calendar/templates/calendar.php:77
+#: ../backend/modules/service/templates/list_item.php:75
+msgid "All staff"
+msgstr "Весь персонал"
+
+# @ ab
+#: ../backend/modules/calendar/templates/calendar.php:63
+msgid " No staff selected"
+msgstr "Персонал не выбран"
+
+# @ ab
+#: ../backend/modules/calendar/templates/calendar.php:67
+msgid "staff members"
+msgstr "персонал"
+
+# @ ab
+#: ../backend/modules/coupons/AB_CouponsController.php:37
+msgid "Please select at least one coupon."
+msgstr "Пожалуйста, выберите хотя бы один купон."
+
+#: ../backend/modules/coupons/AB_CouponsController.php:69
+msgid "Discount should be between 0 and 100"
+msgstr "Скидка должна принимать значение от 0 до 100"
+
+#: ../backend/modules/coupons/templates/index.php:5
+msgid "No coupons found"
+msgstr "Купонов нет"
+
+#: ../backend/modules/coupons/templates/index.php:11
+msgid "Add Coupon"
+msgstr "Добавить купон"
+
+# @ ab
+#: ../backend/modules/coupons/templates/index.php:12
+#: ../backend/modules/customer/templates/index.php:60
+#: ../backend/modules/service/templates/index.php:59
+#: ../backend/modules/settings/templates/_companyForm.php:22
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../backend/modules/coupons/templates/list.php:6
+msgid "Code"
+msgstr "Код"
+
+#: ../backend/modules/coupons/templates/list.php:7
+msgid "Discount (%)"
+msgstr "Скидка (%)"
+
+#: ../backend/modules/coupons/templates/list.php:8
+msgid "Used"
+msgstr "Использован"
+
+# @ ab
+#: ../backend/modules/custom_fields/templates/index.php:2
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:44
+msgid "Custom Fields"
+msgstr "Пользовательские поля"
+
+#: ../backend/modules/custom_fields/templates/index.php:9
+#: ../backend/modules/custom_fields/templates/index.php:25
+msgid "Text Field"
+msgstr "Текстовое поле"
+
+#: ../backend/modules/custom_fields/templates/index.php:10
+#: ../backend/modules/custom_fields/templates/index.php:42
+msgid "Text Area"
+msgstr "Многострочный текст"
+
+#: ../backend/modules/custom_fields/templates/index.php:11
+#: ../backend/modules/custom_fields/templates/index.php:59
+msgid "Checkbox Group"
+msgstr "Группа галочек"
+
+#: ../backend/modules/custom_fields/templates/index.php:12
+#: ../backend/modules/custom_fields/templates/index.php:78
+msgid "Radio Button Group"
+msgstr "Группа переключателей"
+
+#: ../backend/modules/custom_fields/templates/index.php:13
+#: ../backend/modules/custom_fields/templates/index.php:97
+msgid "Drop Down"
+msgstr "Выпадающий список"
+
+# @ ab
+#: ../backend/modules/custom_fields/templates/index.php:18
+#: ../backend/modules/settings/templates/_companyForm.php:45
+#: ../backend/modules/settings/templates/_generalForm.php:134
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:119
+#: ../backend/modules/settings/templates/_purchaseCodeForm.php:22
+msgid " Reset "
+msgstr "Сбросить"
+
+# @ ab
+#: ../backend/modules/custom_fields/templates/index.php:26
+#: ../backend/modules/custom_fields/templates/index.php:43
+#: ../backend/modules/custom_fields/templates/index.php:60
+#: ../backend/modules/custom_fields/templates/index.php:79
+#: ../backend/modules/custom_fields/templates/index.php:98
+msgid "Remove field"
+msgstr "Удалить поле"
+
+#: ../backend/modules/custom_fields/templates/index.php:29
+#: ../backend/modules/custom_fields/templates/index.php:46
+#: ../backend/modules/custom_fields/templates/index.php:63
+#: ../backend/modules/custom_fields/templates/index.php:82
+#: ../backend/modules/custom_fields/templates/index.php:101
+#: ../backend/modules/custom_fields/templates/index.php:115
+#: ../backend/modules/custom_fields/templates/index.php:121
+#: ../backend/modules/custom_fields/templates/index.php:127
+msgid "Enter a label"
+msgstr "Введите название"
+
+# @ ab
+#: ../backend/modules/custom_fields/templates/index.php:33
+#: ../backend/modules/custom_fields/templates/index.php:50
+#: ../backend/modules/custom_fields/templates/index.php:67
+#: ../backend/modules/custom_fields/templates/index.php:86
+#: ../backend/modules/custom_fields/templates/index.php:105
+msgid "Required field"
+msgstr "Обязательное поле"
+
+#: ../backend/modules/custom_fields/templates/index.php:72
+msgid "Checkbox"
+msgstr "Галочка"
+
+#: ../backend/modules/custom_fields/templates/index.php:91
+msgid "Radio Button"
+msgstr "Переключатель"
+
+#: ../backend/modules/custom_fields/templates/index.php:110
+msgid "Option"
+msgstr "Элемент"
+
+# @ ab
+#: ../backend/modules/custom_fields/templates/index.php:116
+#: ../backend/modules/custom_fields/templates/index.php:122
+#: ../backend/modules/custom_fields/templates/index.php:128
+msgid "Remove item"
+msgstr "Удалить элемент"
+
+#: ../backend/modules/customer/templates/_import.php:7
+#: ../backend/modules/customer/templates/_import.php:35
+#: ../backend/modules/customer/templates/index.php:15
+msgid "Import"
+msgstr "Импорт"
+
+# @ default
+#: ../backend/modules/customer/templates/_import.php:11
+msgid "Note"
+msgstr "Заметка"
+
+#: ../backend/modules/customer/templates/_import.php:13
+msgid ""
+"You may import list of clients in CSV format. The file needs to have three "
+"columns: Name, Phone and Email."
+msgstr ""
+"Вы можете импортировать список клиентов в формате CSV. Файл должен содержать "
+"три колонки: имя, телефон и эл. почта."
+
+# @ ab
+# @ default
+#: ../backend/modules/customer/templates/_import.php:17
+msgid "Select file"
+msgstr "Выберите файл"
+
+#: ../backend/modules/customer/templates/_import.php:23
+#: ../backend/modules/export/templates/index.php:11
+msgid "Delimiter"
+msgstr "Разделитель"
+
+#: ../backend/modules/customer/templates/_import.php:26
+#: ../backend/modules/export/templates/index.php:13
+msgid "Comma (,)"
+msgstr "Запятая (,)"
+
+#: ../backend/modules/customer/templates/_import.php:27
+#: ../backend/modules/export/templates/index.php:14
+msgid "Semicolon (;)"
+msgstr "Точка с запятой (;)"
+
+# @ ab
+#: ../backend/modules/customer/templates/index.php:6
+msgid "Quick search customer"
+msgstr "Быстрый поиск клиента"
+
+# @ ab
+#: ../backend/modules/customer/templates/index.php:23
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:16
+#: ../installer.php:112 ../lib/AB_Google.php:146 ../updates.php:274
+msgid "Name"
+msgstr "Имя"
+
+# @ default
+#: ../backend/modules/customer/templates/index.php:26
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:35
+msgid "Notes"
+msgstr "Заметки"
+
+# @ ab
+#: ../backend/modules/customer/templates/index.php:27
+msgid "Last appointment"
+msgstr "Последняя встреча"
+
+# @ ab
+#: ../backend/modules/customer/templates/index.php:28
+msgid "Total appointments"
+msgstr "Всего встреч"
+
+# @ ab
+#: ../backend/modules/customer/templates/index.php:36
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:19
+#: ../lib/AB_Validator.php:74
+msgid "Required"
+msgstr "Обязательно"
+
+# @ ab
+#: ../backend/modules/customer/templates/index.php:62
+msgid "No customers"
+msgstr "Нет клиентов"
+
+# @ ab
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:3
+msgid "New customer"
+msgstr "Новый клиент"
+
+# @ ab
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:9
+msgid "New Customer"
+msgstr "Новый клиент"
+
+# @ ab
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:14
+msgid "Personal Information"
+msgstr "Персональная информация"
+
+# @ ab
+#: ../backend/modules/customer/templates/ng-new_customer_dialog.php:87
+msgid "Create customer"
+msgstr "Создать клиента"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:34
+#: ../backend/modules/payment/AB_PaymentController.php:113
+msgid "Yesterday"
+msgstr "Вчера"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:35
+#: ../backend/modules/payment/AB_PaymentController.php:114
+msgid "Last 7 Days"
+msgstr "Последние 7 дней"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:36
+#: ../backend/modules/payment/AB_PaymentController.php:115
+msgid "Last 30 Days"
+msgstr "Последние 30 дней"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:37
+#: ../backend/modules/payment/AB_PaymentController.php:116
+msgid "This Month"
+msgstr "Текущий месяц"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:38
+#: ../backend/modules/payment/AB_PaymentController.php:117
+msgid "Last Month"
+msgstr "Прошлый месяц"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:39
+#: ../backend/modules/payment/AB_PaymentController.php:118
+msgid "Custom Range"
+msgstr "Произвольный диапазон"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:41
+#: ../backend/modules/payment/AB_PaymentController.php:120
+msgid "Clear"
+msgstr "Очистить"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:42
+#: ../backend/modules/payment/AB_PaymentController.php:121
+msgid "To"
+msgstr "По"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:43
+#: ../backend/modules/payment/AB_PaymentController.php:122
+msgid "From"
+msgstr "С"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:64
+msgid "Staff Member"
+msgstr "Сотрудник"
+
+# @ default
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:66
+msgid "Booking Time"
+msgstr "Дата и время встречи"
+
+# @ default
+#: ../backend/modules/export/AB_ExportController.php:67
+#: ../backend/modules/service/templates/list.php:9
+msgid "Duration"
+msgstr "Продолжительность"
+
+# @ default
+#: ../backend/modules/export/AB_ExportController.php:68
+#: ../backend/modules/service/templates/list.php:10
+#: ../backend/modules/staff/templates/services.php:25
+#: ../backend/modules/staff/templates/services.php:61
+msgid "Price"
+msgstr "Цена"
+
+# @ ab
+#: ../backend/modules/export/AB_ExportController.php:69
+#: ../backend/modules/payment/templates/index.php:70
+msgid "Customer"
+msgstr "Клиент"
+
+# @ ab
+#: ../backend/modules/export/templates/index.php:2
+msgid "Export appointments"
+msgstr "Экспорт записей о встречах"
+
+#: ../backend/modules/export/templates/index.php:16
+msgid "Export to CSV"
+msgstr "Экспортировать в CSV"
+
+# @ ab
+#: ../backend/modules/notifications/AB_NotificationsController.php:27
+msgid "Notification settings were updated successfully."
+msgstr "Настройки уведомлений были успешно сохранены."
+
+# @ ab
+#: ../backend/modules/notifications/forms/AB_NotificationsForm.php:79
+msgid "Notification to Customer about Appointment details"
+msgstr "Уведомление для клиента о деталях бронирования"
+
+# @ ab
+#: ../backend/modules/notifications/forms/AB_NotificationsForm.php:80
+msgid "Notification to Staff Member about Appointment details"
+msgstr "Уведомление для персонала о деталях бронирования"
+
+# @ ab
+#: ../backend/modules/notifications/forms/AB_NotificationsForm.php:81
+msgid "Evening reminder to Customer about next day Appointment"
+msgstr "Вечернее уведомление для клиента о завтрашней забронированной встрече"
+
+# @ ab
+#: ../backend/modules/notifications/forms/AB_NotificationsForm.php:82
+msgid "Follow-up message on the day after Appointment"
+msgstr "Последующее сообщение в день после забронированной встречи"
+
+# @ ab
+#: ../backend/modules/notifications/forms/AB_NotificationsForm.php:83
+msgid "Evening notification with the next day agenda to Staff Member"
+msgstr "Вечернее уведомление с данными о завтрашнем дне для персонала "
+
+# @ ab
+#: ../backend/modules/notifications/forms/AB_NotificationsForm.php:115
+msgid "Subject"
+msgstr "Тема"
+
+# @ ab
+#: ../backend/modules/notifications/forms/AB_NotificationsForm.php:148
+msgid "Send copy to administrators"
+msgstr "Отправлять копию администраторам"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:2
+msgid "time of appointment"
+msgstr "время встречи"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:3
+msgid "date of  appointment"
+msgstr "дата встречи"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:4
+msgid "cancel appointment link"
+msgstr "ссылка для отмены бронирования"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:5
+msgid "URL for cancel appointment link (to use inside <a> tag)"
+msgstr "URL ссылки для отмены встречи (для использования внутри тега <a>)"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:6
+msgid "name of category"
+msgstr "название категории"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:7
+msgid "name of client"
+msgstr "имя клиента"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:8
+msgid "name of your company"
+msgstr "название компании"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:9
+msgid "your company logo"
+msgstr "логотип компании"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:10
+msgid "address of your company"
+msgstr "адрес компании"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:11
+msgid "your company phone"
+msgstr "телефон компании"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:12
+msgid "this web-site address"
+msgstr "веб-сайт компании"
+
+#: ../backend/modules/notifications/templates/_codes.php:13
+msgid "combined values of all custom fields"
+msgstr "данные из всех пользовательских полей"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:14
+msgid "name of service"
+msgstr "название сервиса"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:15
+msgid "price of service"
+msgstr "цена сервиса"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:16
+msgid "email of staff"
+msgstr "эл. почта работника"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:17
+msgid "name of staff"
+msgstr "имя работника"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:18
+msgid "phone of staff"
+msgstr "телефон работника"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes.php:19
+msgid "photo of staff"
+msgstr "фото работника"
+
+# @ ab
+#: ../backend/modules/notifications/templates/_codes_event_next_day.php:2
+msgid "date of next day"
+msgstr "дата завтрашнего дня"
+
+#: ../backend/modules/notifications/templates/_codes_event_next_day.php:3
+msgid "staff agenda for next day"
+msgstr "дневник сотрудника на завтрашний день"
+
+# @ ab
+#: ../backend/modules/notifications/templates/index.php:18
+msgid "Sender name"
+msgstr "Имя отправителя"
+
+# @ ab
+#: ../backend/modules/notifications/templates/index.php:21
+msgid "Sender email"
+msgstr "Электронная почта отправителя"
+
+# @ ab
+#: ../backend/modules/notifications/templates/index.php:34
+msgid "Message"
+msgstr "Сообщение"
+
+#: ../backend/modules/notifications/templates/index.php:41
+msgid "Codes"
+msgstr "Коды"
+
+# @ ab
+#: ../backend/modules/notifications/templates/index.php:55
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+# @ ab
+#: ../backend/modules/notifications/templates/index.php:61
+msgid ""
+"To send scheduled notifications please execute the following script hourly "
+"with your cron:"
+msgstr ""
+"Чтобы отправлять запланированные уведомления, пожалуйста, настройте cron на "
+"ежечасное исполнение следующего скрипта:"
+
+# @ ab
+#: ../backend/modules/payment/templates/_alert.php:3
+msgid "No payments for selected period and criteria."
+msgstr "Нет платежей за выбранный период и по выбранным критериям."
+
+#: ../backend/modules/payment/templates/_body.php:20
+#: ../backend/modules/payment/templates/index.php:74 ../installer.php:115
+#: ../updates.php:120
+msgid "Coupon"
+msgstr "Купон"
+
+#: ../backend/modules/payment/templates/_body.php:23
+#: ../backend/modules/payment/templates/index.php:35
+msgid "Local"
+msgstr "За наличные"
+
+# @ ab
+#: ../backend/modules/payment/templates/_body.php:38
+msgid "Total: "
+msgstr "Всего:"
+
+# @ ab
+#: ../backend/modules/payment/templates/index.php:20
+msgid "All payment types"
+msgstr "Все типы платежей"
+
+# @ ab
+#: ../backend/modules/payment/templates/index.php:43
+msgid "All customers"
+msgstr "Все клиенты"
+
+# @ ab
+#: ../backend/modules/payment/templates/index.php:49
+msgid "All providers"
+msgstr "Все провайдеры услуг"
+
+# @ ab
+#: ../backend/modules/payment/templates/index.php:55
+#: ../backend/modules/service/templates/index.php:51
+#: ../backend/modules/staff/templates/services.php:22
+msgid "All services"
+msgstr "Все сервисы"
+
+# @ ab
+#: ../backend/modules/payment/templates/index.php:60
+msgid "Filter"
+msgstr "Фильтр"
+
+# @ ab
+#: ../backend/modules/payment/templates/index.php:69
+msgid "Type"
+msgstr "Тип"
+
+# @ ab
+#: ../backend/modules/payment/templates/index.php:73
+msgid "Amount"
+msgstr "Сумма"
+
+# @ ab
+#: ../backend/modules/payment/templates/index.php:75
+msgid "Appointment Date"
+msgstr "Дата встречи"
+
+# @ ab
+#: ../backend/modules/service/AB_ServiceController.php:43
+msgid "Please select at least one service."
+msgstr "Пожалуйста, выберите минимум один сервис."
+
+# @ ab
+#: ../backend/modules/service/templates/index.php:6
+msgid "All Services"
+msgstr "Все сервисы"
+
+# @ ab
+#: ../backend/modules/service/templates/index.php:25
+msgid "New Category"
+msgstr "Новая категория"
+
+# @ ab
+#: ../backend/modules/service/templates/index.php:39
+msgid "Save category"
+msgstr "Сохранить категорию"
+
+# @ ab
+#: ../backend/modules/service/templates/index.php:52
+msgid "No services found. Please add services."
+msgstr "Сервисы не найдены. Пожалуйста, добавьте сервисы."
+
+# @ ab
+#: ../backend/modules/service/templates/index.php:58
+msgid "Add Service"
+msgstr "Добавить сервис"
+
+#: ../backend/modules/service/templates/index.php:67
+msgid "Update service setting"
+msgstr "Изменение настройки сервиса"
+
+#: ../backend/modules/service/templates/index.php:70
+msgid ""
+"You are about to change a service setting which is also configured "
+"separately for each staff member. Do you want to update it in staff settings "
+"too?"
+msgstr ""
+"Вы собираетесь изменить настройку сервиса, которая также настраивается "
+"отдельно для каждого сотрудника. Желаете ли вы, чтобы эта настройка была "
+"изменена и у сотрудников?"
+
+#: ../backend/modules/service/templates/index.php:72
+msgid "Remember my choice"
+msgstr "Запомнить мой выбор"
+
+#: ../backend/modules/service/templates/index.php:76
+msgid "No, just update here in services"
+msgstr "Нет, изменить только тут в настройках сервиса"
+
+#: ../backend/modules/service/templates/index.php:77
+msgid "Yes"
+msgstr "Да"
+
+# @ default
+#: ../backend/modules/service/templates/list.php:8
+msgid "Title"
+msgstr "Название"
+
+#: ../backend/modules/service/templates/list.php:12
+msgid ""
+"The maximum number of customers allowed to book the service for the certain "
+"time period."
+msgstr ""
+"Максимальное количество клиентов, которые могут забронировать сервис на одно "
+"и то же время."
+
+# @ default
+#: ../backend/modules/service/templates/list.php:13
+msgid "Staff"
+msgstr "Персонал"
+
+# @ ab
+# @ default
+#: ../backend/modules/service/templates/list.php:14 ../installer.php:106
+#: ../updates.php:268
+msgid "Category"
+msgstr "Категория"
+
+# @ ab
+#: ../backend/modules/settings/AB_SettingsController.php:33
+#: ../backend/modules/staff/AB_StaffController.php:43
+msgid "We are not working on this day"
+msgstr "Мы не работаем в этот день"
+
+# @ ab
+#: ../backend/modules/settings/AB_SettingsController.php:34
+#: ../backend/modules/staff/AB_StaffController.php:44
+msgid "Repeat every year"
+msgstr "Повторять каждый год"
+
+# @ ab
+#: ../backend/modules/settings/forms/AB_BusinessHoursForm.php:50
+#: ../backend/modules/staff/templates/schedule.php:25
+msgid "OFF"
+msgstr "ВЫКЛЮЧИТЬ"
+
+# @ ab
+#: ../backend/modules/settings/templates/_companyForm.php:13
+msgid "Company name"
+msgstr "Имя компании"
+
+# @ ab
+#: ../backend/modules/settings/templates/_companyForm.php:17
+#: ../backend/modules/settings/templates/_companyForm.php:21
+msgid "Company logo"
+msgstr "Логотип компании"
+
+# @ ab
+#: ../backend/modules/settings/templates/_companyForm.php:30
+msgid "Address"
+msgstr "Адрес"
+
+# @ ab
+#: ../backend/modules/settings/templates/_companyForm.php:38
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: ../backend/modules/settings/templates/_generalForm.php:13
+msgid "Time slot length"
+msgstr "Длина временного интервала"
+
+#: ../backend/modules/settings/templates/_generalForm.php:31
+msgid ""
+"Select the time interval that will be used in frontend and backend, e.g. in "
+"calendar, second step of the booking process, while indicating the working "
+"hours, etc."
+msgstr ""
+"Выберите временной интервал, который будет использоваться в качестве "
+"минимального шага в календаре, на втором шаге бронирования, при выборе "
+"рабочего времени и т.д."
+
+#: ../backend/modules/settings/templates/_generalForm.php:37
+msgid "Minimum time requirement prior to booking"
+msgstr "Минимально необходимое количество часов до бронирования"
+
+#: ../backend/modules/settings/templates/_generalForm.php:41
+#: ../backend/modules/settings/templates/_generalForm.php:78
+#: ../backend/modules/settings/templates/_generalForm.php:114
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:85
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:103
+#: ../backend/modules/settings/templates/_paymentsForm.php:24
+#: ../backend/modules/settings/templates/_paymentsForm.php:36
+#: ../backend/modules/settings/templates/_paymentsForm.php:48
+#: ../backend/modules/settings/templates/_paymentsForm.php:82
+#: ../backend/modules/settings/templates/_paymentsForm.php:113
+msgid "Disabled"
+msgstr "Выключено"
+
+#: ../backend/modules/settings/templates/_generalForm.php:52
+msgid ""
+"Set a minimum amount of time before the chosen appointment (for example, "
+"require the customer to book at least 1 hour before the appointment time)."
+msgstr ""
+"Укажите, за сколько часов до желаемого времени это время можно забронировать "
+"(например, разрешите клиентам бронировать встречи не позднее, чем за час до "
+"желаемого времени)."
+
+#: ../backend/modules/settings/templates/_generalForm.php:58
+msgid "Number of days available for booking"
+msgstr "Количество дней доступных для бронирования"
+
+#: ../backend/modules/settings/templates/_generalForm.php:68
+msgid ""
+"Specify the number of days that should be available for booking at step 2 "
+"starting from the current day."
+msgstr ""
+"Укажите количество дней, которые должны быть доступны для бронирования на "
+"втором шаге, начиная с текущего дня."
+
+#: ../backend/modules/settings/templates/_generalForm.php:74
+msgid "Display available time slots in client's time zone"
+msgstr "Показывать доступное для бронирования время в часовом поясе клиента"
+
+#: ../backend/modules/settings/templates/_generalForm.php:78
+#: ../backend/modules/settings/templates/_generalForm.php:114
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:85
+#: ../backend/modules/settings/templates/_paymentsForm.php:24
+#: ../backend/modules/settings/templates/_paymentsForm.php:36
+#: ../backend/modules/settings/templates/_paymentsForm.php:113
+msgid "Enabled"
+msgstr "Включено"
+
+#: ../backend/modules/settings/templates/_generalForm.php:88
+msgid "The value is taken from client’s browser."
+msgstr "Значение часового пояса будет браться из браузера клиента."
+
+# @ ab
+#: ../backend/modules/settings/templates/_generalForm.php:94
+msgid "Cancel appointment page URL"
+msgstr "URL страницы для отмены забронированной встречи"
+
+#: ../backend/modules/settings/templates/_generalForm.php:97
+#: ../backend/modules/settings/templates/_generalForm.php:119
+msgid "Enter a URL"
+msgstr "Введите URL"
+
+#: ../backend/modules/settings/templates/_generalForm.php:104
+msgid ""
+"Insert a URL of a page that is shown to clients after they have cancelled "
+"their booking."
+msgstr ""
+"Введите адрес страницы, которая будет показана клиенту после того, как он "
+"отменит забронированную встречу."
+
+#: ../backend/modules/settings/templates/_generalForm.php:110
+msgid "Final step URL"
+msgstr "URL для последнего шага бронирования"
+
+#: ../backend/modules/settings/templates/_generalForm.php:126
+msgid ""
+"Set a URL of a page that the user will be forwarded to after successful "
+"booking. If disabled then the default step 5 is displayed."
+msgstr ""
+"Введите адрес страницы, на которую будет перенаправлен клиент после "
+"успешного бронирования. Если выключено, тогда будет показан стандартный 5-й "
+"шаг."
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:15
+msgid "Google Instructions"
+msgstr "Иструкция"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:18
+msgid "To find your client ID and client secret, do the following:"
+msgstr "Чтобы узнать свой Client ID и Clent secret, выполните следующее:"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:21
+msgid ""
+"Go to the <a href=\"https://console.developers.google.com/\" target=\"_blank"
+"\">Google Developers Console</a>."
+msgstr ""
+"Откройте <a href=\"https://console.developers.google.com/\" target=\"_blank"
+"\">Google Developers Console</a>."
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:22
+msgid "Select a project, or create a new one."
+msgstr "Выберите проект или создайте новый."
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:23
+msgid ""
+"In the sidebar on the left, expand <b>APIs & auth</b>. Next, click <b>APIs</"
+"b>. In the list of APIs, make sure the status is <b>ON</b> for the Google "
+"Calendar API."
+msgstr ""
+"Слева раскройте <b>APIs & auth</b>. Далее нажмите <b>APIs</b>. Найдите в "
+"списке пункт Google Calendar API и поставьте ему статус <b>ON</b>."
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:24
+msgid "In the sidebar on the left, select <b>Credentials</b>."
+msgstr "Слева выберите <b>Credentials</b>."
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:25
+msgid ""
+"Create your project's OAuth 2.0 credentials by clicking <b>Create new Client "
+"ID</b>, selecting <b>Web application</b>, and providing the information "
+"needed to create the credentials. For <b>AUTHORIZED REDIRECT URIS</b> enter "
+"the <b>Redirect URI</b> found below on this page."
+msgstr ""
+"Нажмите <b>Create new Client ID</b>, чтобы создать реквизиты для OAuth 2.0. "
+"Выберите <b>Web application</b> и в поле <b>AUTHORIZED REDIRECT URIS</b> "
+"введите значение <b>Redirect URI</b>, указанное ниже на этой странице."
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:26
+msgid ""
+"Look for the <b>Client ID</b> and <b>Client secret</b> in the table "
+"associated with each of your credentials."
+msgstr ""
+"Реквизиты <b>Client ID</b> и <b>Client secret</b> появятся в списке ваших "
+"реквизитов."
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:34
+#: ../backend/modules/settings/templates/index.php:7
+msgid "Google Calendar"
+msgstr "Google Календарь"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:39
+msgid "Client ID"
+msgstr "Client ID"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:47
+msgid "The client ID obtained from the Developers Console"
+msgstr "Значение CLIENT ID, полученное из Google Developers Console"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:53
+msgid "Client secret"
+msgstr "Client secret"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:61
+msgid "The client secret obtained from the Developers Console"
+msgstr "Значение CLIENT SECRET, полученное из Google Developers Console"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:67
+msgid "Redirect URI"
+msgstr "Redirect URI"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:75
+msgid "Enter this URL as a redirect URI in the Developers Console"
+msgstr "Введите этот адрес в поле REDIRECT URIS в Google Developers Console"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:81
+msgid "2 way sync"
+msgstr "2-х сторонняя синхронизация"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:93
+msgid ""
+"By default Bookly pushes new appointments and any further changes to Google "
+"Calendar. If you enable this option then Bookly will fetch events from "
+"Google Calendar and remove corresponding time slots before displaying the "
+"second step of the booking form (this may lead to a delay when users click "
+"Next at the first step)."
+msgstr ""
+"По умолчанию Bookly отправляет в Google Календарь все новые встречи и "
+"последующие изменения в них. Если включить эту настройку, то Bookly будет "
+"забирать события из Google Календаря и исключать соответствующие им "
+"интервалы перед показом второго шага в форме бронирования (это может "
+"привести к задержкам после нажатия на кнопку Далее на первом шаге)."
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:99
+msgid "Limit number of fetched events"
+msgstr "Ограничить количество выгружаемых событий"
+
+#: ../backend/modules/settings/templates/_googleCalendarForm.php:111
+msgid ""
+"If there is a lot of events in Google Calendar sometimes this leads to a "
+"lack of memory in PHP when Bookly tries to fetch all events. You can limit "
+"the number of fetched events here. This only works when 2 way sync is "
+"enabled."
+msgstr ""
+"Когда в Google Календаре очень много событий. это может привести к нехватке "
+"памяти в PHP в момент, когда Bookly пытается выгрузить все события. Вы "
+"можете ограничить число выгружаемых событий с помощью этой настройки. Она "
+"работает только, когда включена 2-х сторонняя синхронизация."
+
+# @ ab
+#: ../backend/modules/settings/templates/_paymentsForm.php:11
+msgid "Currency"
+msgstr "Валюта"
+
+# @ ab
+#: ../backend/modules/settings/templates/_paymentsForm.php:31
+msgid "Service paid locally"
+msgstr "Оплата сервиса наличными"
+
+# @ ab
+#: ../backend/modules/settings/templates/_paymentsForm.php:55
+msgid "API Username"
+msgstr "API Username"
+
+# @ ab
+#: ../backend/modules/settings/templates/_paymentsForm.php:59
+msgid "API Password"
+msgstr "API Password"
+
+# @ ab
+#: ../backend/modules/settings/templates/_paymentsForm.php:63
+msgid "API Signature"
+msgstr "API Signature"
+
+# @ ab
+#: ../backend/modules/settings/templates/_paymentsForm.php:67
+#: ../backend/modules/settings/templates/_paymentsForm.php:97
+msgid "Sandbox Mode"
+msgstr "Sandbox Mode"
+
+#: ../backend/modules/settings/templates/_paymentsForm.php:89
+msgid "API Login ID"
+msgstr "API Login ID"
+
+#: ../backend/modules/settings/templates/_paymentsForm.php:93
+msgid "API Transaction Key"
+msgstr "API Transaction Key"
+
+#: ../backend/modules/settings/templates/_paymentsForm.php:120
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+# @ ab
+#: ../backend/modules/settings/templates/_purchaseCodeForm.php:12
+#: ../backend/modules/settings/templates/index.php:11
+msgid "Purchase Code"
+msgstr "Лицензионный ключ"
+
+#: ../backend/modules/settings/templates/admin_notice.php:3
+msgid ""
+"Please do not forget to specify your purchase code in Bookly <a href=\"admin."
+"php?page=ab-settings\">settings</a>. Upon providing the code you will have "
+"access to free updates of Bookly. Updates may contain functionality "
+"improvements and important security fixes."
+msgstr ""
+"Пожалуйста, не забудьте ввести лицензионный ключ в <a href=\"admin.php?"
+"page=ab-settings\">настройках</a> Bookly. После того, как Вы введёте ключ, "
+"Вы получите доступ к бесплатным обновлениям Bookly. Обновления обычно "
+"содержат новые функции и важные исправления ошибок."
+
+#: ../backend/modules/settings/templates/admin_notice.php:4
+msgid ""
+"<b>Important!</b> Please be aware that if your copy of Bookly was not "
+"downloaded from Codecanyon (the only channel of Bookly distribution), you "
+"may put your website under significant risk - it is very likely that it "
+"contains a malicious code, a trojan or a backdoor. Please consider buying a "
+"licensed copy of Bookly <a href=\"http://bookly-wp-plugin.com\" target="
+"\"_blank\">here</a>."
+msgstr ""
+"<b>Внимание!</b> Если Вы скачали данную копию Bookly не с сайта Codecanyon "
+"(единственный официальный канал дистрибьюции Bookly), тогда Ваш сайт может "
+"быть подвержен серьёзной опасности - вероятнее всего эта копия Bookly "
+"содержит вредоносный код, троян или \"бэкдор\". Пожалуйста, подумайте о том, "
+"чтобы купить лицензионную копию Bookly на <a href=\"http://bookly-wp-plugin."
+"com\" target=\"_blank\">официальном сайте</a>."
+
+#: ../backend/modules/settings/templates/admin_notice.php:5
+msgid "Dismiss"
+msgstr "Закрыть"
+
+#: ../backend/modules/settings/templates/index.php:5
+msgid "General"
+msgstr "Общие"
+
+# @ ab
+#: ../backend/modules/settings/templates/index.php:6
+msgid "Company"
+msgstr "Компания"
+
+# @ ab
+#: ../backend/modules/settings/templates/index.php:9
+msgid "Business hours"
+msgstr "Часы работы"
+
+# @ ab
+#: ../backend/modules/settings/templates/index.php:10
+msgid "Holidays"
+msgstr "Праздники"
+
+# @ ab
+#: ../backend/modules/staff/AB_StaffController.php:183
+msgid "The start time must be less than the end one"
+msgstr "Начальное время должно быть меньше конечного"
+
+# @ ab
+#: ../backend/modules/staff/AB_StaffController.php:198
+msgid "The requested interval is not available"
+msgstr "Запрашиваемый интервал не доступен"
+
+# @ ab
+#: ../backend/modules/staff/AB_StaffController.php:254
+#: ../backend/modules/staff/templates/_breaks.php:59
+#: ../backend/modules/staff/templates/schedule.php:41
+#: ../backend/modules/staff/templates/schedule.php:74
+msgid "to"
+msgstr "до"
+
+# @ ab
+#: ../backend/modules/staff/AB_StaffController.php:258
+#: ../backend/modules/staff/templates/_breaks.php:65
+#: ../backend/modules/staff/templates/schedule.php:80
+msgid "Save break"
+msgstr "Сохранить перерыв"
+
+# @ ab
+#: ../backend/modules/staff/AB_StaffController.php:273
+msgid "Error adding the break interval"
+msgstr "Ошибка добавления интервала перерыва"
+
+#: ../backend/modules/staff/AB_StaffController.php:306
+msgid "Calendar ID is not valid."
+msgstr "Значение Calendar ID недействительное."
+
+# @ ab
+#: ../backend/modules/staff/templates/_breaks.php:13
+msgid "breaks:"
+msgstr "перерывы:"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:28
+msgid "Delete this staff member"
+msgstr "Удалить этого сотрудника"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:32 ../installer.php:103
+#: ../updates.php:265
+msgid "Details"
+msgstr "Детали"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:34
+msgid "Schedule"
+msgstr "График"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:35
+msgid "Days off"
+msgstr "Нерабочие дни"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:45
+#: ../backend/modules/staff/templates/new.php:10
+msgid "User"
+msgstr "Пользователь"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:48
+#: ../backend/modules/staff/templates/new.php:13
+msgid "Select from WP users"
+msgstr "Выбрать из пользователей WP"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:64
+msgid "Photo"
+msgstr "Фото"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:68
+msgid "Avatar"
+msgstr "Аватар"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:69
+msgid "Delete current photo"
+msgstr "Удалить текущее фото"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:78
+#: ../backend/modules/staff/templates/new.php:22
+msgid "Full name"
+msgstr "Полное имя"
+
+#: ../backend/modules/staff/templates/edit.php:102
+msgid "Google Calendar integration"
+msgstr "Интеграция с Google Календарём"
+
+#: ../backend/modules/staff/templates/edit.php:116
+msgid "Connect"
+msgstr "Подключить"
+
+#: ../backend/modules/staff/templates/edit.php:118
+msgid ""
+"Please configure Google Calendar <a href=\"?page=ab-"
+"settings&type=_google_calendar\">settings</a> first"
+msgstr ""
+"Пожалуйста, сначала укажите <a href=\"?page=ab-settings&type=_google_calendar"
+"\">настройки</a> Google Календаря"
+
+#: ../backend/modules/staff/templates/edit.php:121
+msgid "Connected"
+msgstr "Подключен"
+
+#: ../backend/modules/staff/templates/edit.php:121
+msgid "disconnect"
+msgstr "Отключить"
+
+# @ ab
+#: ../backend/modules/staff/templates/edit.php:131
+msgid "Calendar ID"
+msgstr "Calendar ID"
+
+# @ ab
+#: ../backend/modules/staff/templates/list.php:2
+msgid "Staff Members"
+msgstr "Персонал"
+
+# @ ab
+#: ../backend/modules/staff/templates/list.php:27
+msgid ""
+"If this staff member requires separate login to access personal calendar, a "
+"regular WP user needs to be created for this purpose."
+msgstr ""
+"Если этому сотруднику требуется отдельный логин для доступа в личный "
+"календарь, тогда для этой цели должен быть создан обычный пользователь WP."
+
+# @ ab
+#: ../backend/modules/staff/templates/list.php:28
+msgid ""
+"User with \"Administrator\" role will have access to calendars and settings "
+"of all staff members, user with some other role will have access only to "
+"personal calendar and settings."
+msgstr ""
+"Пользователь с ролью \"Администратор \"  будет иметь доступ к календарям и "
+"настройкам всех сотрудников, пользователь с какой-то другой ролью будет "
+"иметь доступ только к личным календарем и настройкам."
+
+# @ ab
+#: ../backend/modules/staff/templates/list.php:29
+msgid ""
+"If you will leave this field blank, this staff member will not be able to "
+"access personal calendar using WP backend."
+msgstr ""
+"Если Вы не заполните это поле, работник  не сможет получить доступ к "
+"календарю через административный интерфейс."
+
+#: ../backend/modules/staff/templates/list.php:32
+msgid "Synchronize the data of the staff member bookings with Google Calendar."
+msgstr ""
+"Синхронизировать данные о забронированных встречах сотрудника с его Google "
+"Календарём."
+
+#: ../backend/modules/staff/templates/list.php:35
+msgid ""
+"The Calendar ID can be found by clicking on \"Calendar settings\" next to "
+"the calendar you wish to display. The Calendar ID is then shown beside "
+"\"Calendar Address\"."
+msgstr ""
+"Значение Calendar ID можно найти, нажав на \"Calendar settings\" конкретного "
+"календаря в списке ваших Google Календарей. Calendar ID будет показан в поле "
+"\"Calendar Address\"."
+
+#: ../backend/modules/staff/templates/list.php:36
+msgid "<b>Leave this field empty</b> to work with the default calendar."
+msgstr ""
+"<b>Оставьте это поле пустым</b>, чтобы работать с календарём по умолчанию."
+
+# @ ab
+#: ../backend/modules/staff/templates/new.php:3
+msgid "New Staff Member"
+msgstr "Новый сотрудник"
+
+# @ ab
+#: ../backend/modules/staff/templates/new.php:28
+msgid "Save Member"
+msgstr "Сохранить сотрудника"
+
+# @ ab
+#: ../backend/modules/staff/templates/schedule.php:47
+msgid "add break"
+msgstr "добавить перерыв"
+
+# @ ab
+#: ../backend/modules/staff/templates/schedule.php:110
+msgid "No result"
+msgstr "Нет результатов"
+
+# @ default
+# @ ab
+#: ../backend/modules/tinymce/AB_TinyMCE_Plugin.php:42
+#: ../backend/modules/tinymce/AB_TinyMCE_Plugin.php:46
+msgid "Add Booking Form"
+msgstr "Добавить форму бронирования"
+
+# @ ab
+#: ../backend/modules/tinymce/templates/popup.php:7
+msgid "Default value for category select"
+msgstr "Стандартное значение для категории"
+
+# @ ab
+#: ../backend/modules/tinymce/templates/popup.php:11 ../installer.php:118
+#: ../updates.php:279
+msgid "Select category"
+msgstr "Выберите категорию"
+
+#: ../backend/modules/tinymce/templates/popup.php:18
+#: ../backend/modules/tinymce/templates/popup.php:35
+#: ../backend/modules/tinymce/templates/popup.php:52
+msgid "Hide this field"
+msgstr "Не показывать это поле"
+
+#: ../backend/modules/tinymce/templates/popup.php:19
+#: ../backend/modules/tinymce/templates/popup.php:36
+msgid ""
+"Please be aware that a value in this field is required in the frontend. If "
+"you choose to hide this field, please be sure to select a default value for "
+"it"
+msgstr ""
+"Имейте в виду, что это поле является обязательным для заполнения. Поэтому, "
+"если вы выберите не показывать это поле, тогда, пожалуйста, задайте ему "
+"какое-то значение."
+
+# @ ab
+#: ../backend/modules/tinymce/templates/popup.php:24
+msgid "Default value for service select"
+msgstr "Стандартное значение для сервиса"
+
+# @ ab
+# @ default
+#: ../backend/modules/tinymce/templates/popup.php:28 ../installer.php:117
+#: ../updates.php:278
+msgid "Select service"
+msgstr "Выберите сервис"
+
+# @ default
+#: ../backend/modules/tinymce/templates/popup.php:41
+msgid "Default value for employee select"
+msgstr "Стандартное значение для работника"
+
+# @ ab
+# @ default
+#: ../backend/modules/tinymce/templates/popup.php:45
+#: ../frontend/modules/booking/lib/AB_UserBookingData.php:340
+#: ../installer.php:119 ../updates.php:280
+msgid "Any"
+msgstr "Любой"
+
+# @ ab
+#: ../backend/modules/tinymce/templates/popup.php:57
+msgid "\"I'm available on …\" block"
+msgstr "Блок \"Пожалуйста, выберите дату...\""
+
+#: ../backend/modules/tinymce/templates/popup.php:60
+msgid "Hide this block"
+msgstr "Не показывать этот блок"
+
+# @ ab
+#: ../backend/modules/tinymce/templates/popup.php:66
+msgid "Insert"
+msgstr "Вставить"
+
+# @ ab
+#: ../backend/modules/tinymce/templates/popup.php:106
+msgid "Insert Appointment Booking Form"
+msgstr "Вставить форму для бронирования"
+
+# @ ab
+#: ../frontend/modules/booking/AB_BookingController.php:277
+msgid ""
+"<h3>The selected time is not available anymore. Please, choose another time "
+"slot.</h3>"
+msgstr ""
+"<h3>Выбранное время больше не доступно. Пожалуйста, выберите другой "
+"временной интервал.</h3>"
+
+# @ ab
+#: ../frontend/modules/booking/AB_BookingController.php:460
+msgid ""
+"The selected time is not available anymore. Please, choose another time slot."
+msgstr ""
+"Выбранное время больше не доступно. Пожалуйста, выберите другой временной "
+"интервал."
+
+#: ../frontend/modules/booking/AB_BookingController.php:543
+msgid "* This coupon code is invalid or has been used"
+msgstr "* Этот купон недействителен или уже был использован"
+
+# @ default
+#: ../frontend/modules/booking/lib/AB_UserBookingData.php:308
+#: ../lib/AB_BookingConfiguration.php:53
+msgid "Uncategorized"
+msgstr "Без категории"
+
+# @ ab
+#: ../frontend/modules/booking/templates/1_service.php:35
+msgid "* Please select a service"
+msgstr "* Пожалуйста, выберите сервис"
+
+# @ ab
+#: ../frontend/modules/booking/templates/1_service.php:105
+#: ../lib/AB_Validator.php:87
+msgid "* The start time must be less than the end time"
+msgstr "* Начальное время должно быть меньше конечного"
+
+# @ ab
+#: ../frontend/modules/booking/templates/2_time.php:51
+msgid "No time is available for selected criteria."
+msgstr "По выбранным критериям нет доступного времени."
+
+# @ ab
+#: ../installer.php:21
+msgid "Your appointment information"
+msgstr "Информация о Вашей брони"
+
+# @ ab
+#: ../installer.php:22
+msgid ""
+"Dear [[CLIENT_NAME]].\n"
+"\n"
+"This is confirmation that you have booked [[SERVICE_NAME]].\n"
+"\n"
+"We are waiting you at [[COMPANY_ADDRESS]] on [[APPOINTMENT_DATE]] at "
+"[[APPOINTMENT_TIME]].\n"
+"\n"
+"Thank you for choosing our company.\n"
+"\n"
+"[[COMPANY_NAME]]\n"
+"[[COMPANY_PHONE]]\n"
+"[[COMPANY_WEBSITE]]"
+msgstr ""
+"Дорогой(ая) [[CLIENT_NAME]].\n"
+"\n"
+"Это подтверждение того, что Вы забронировали [[SERVICE_NAME]].\n"
+"\n"
+"Мы ждем Вас по адресу [[COMPANY_ADDRESS]] на [[APPOINTMENT_DATE]] в "
+"[[APPOINTMENT_TIME]] .\n"
+"\n"
+"Спасибо за выбор нашей компании.\n"
+"\n"
+"[[COMPANY_NAME]]\n"
+"[[COMPANY_PHONE]]\n"
+"[[COMPANY_WEBSITE]]"
+
+# @ ab
+#: ../installer.php:26
+msgid "New booking information"
+msgstr "Информация о новом бронировании"
+
+# @ ab
+#: ../installer.php:27
+msgid ""
+"Hello.\n"
+"\n"
+"You have new booking.\n"
+"\n"
+"Service: [[SERVICE_NAME]]\n"
+"Date: [[APPOINTMENT_DATE]]\n"
+"Time: [[APPOINTMENT_TIME]]\n"
+"Client name: [[CLIENT_NAME]]\n"
+"Client phone: [[CLIENT_PHONE]]\n"
+"Client email: [[CLIENT_EMAIL]]"
+msgstr ""
+"Здравствуйте.\n"
+"\n"
+"У вас новая встреча.\n"
+"\n"
+"Сервис: [[SERVICE_NAME]]\n"
+"Дата: [[APPOINTMENT_DATE]]\n"
+"Время: [[APPOINTMENT_TIME]]\n"
+"Имя клиента: [[CLIENT_NAME]]\n"
+"Телефон клиента: [[CLIENT_PHONE]]\n"
+"Электронная почта клиента: [[CLIENT_EMAIL]]"
+
+# @ ab
+#: ../installer.php:31
+msgid "Your appointment at [[COMPANY_NAME]]"
+msgstr "Ваша встреча в [[COMPANY_NAME]]"
+
+# @ ab
+#: ../installer.php:32
+msgid ""
+"Dear [[CLIENT_NAME]].\n"
+"\n"
+"We would like to remind you that you have booked [[SERVICE_NAME]] tomorrow "
+"on [[APPOINTMENT_TIME]]. We are waiting you at [[COMPANY_ADDRESS]].\n"
+"\n"
+"Thank you for choosing our company.\n"
+"\n"
+"[[COMPANY_NAME]]\n"
+"[[COMPANY_PHONE]]\n"
+"[[COMPANY_WEBSITE]]"
+msgstr ""
+"Дорогой(ая) [[CLIENT_NAME]].\n"
+"\n"
+"Мы бы хотели Вам напомнить, что Вы забронировали [[SERVICE_NAME]] завтра в "
+"[[APPOINTMENT_TIME]]. Мы ждем Вас по адресу [[COMPANY_ADDRESS]].\n"
+"\n"
+"Спасибо за выбор нашей компании.\n"
+"\n"
+"[[COMPANY_NAME]]\n"
+"[[COMPANY_PHONE]]\n"
+"[[COMPANY_WEBSITE]]"
+
+# @ ab
+#: ../installer.php:36
+msgid "Your visit to [[COMPANY_NAME]]"
+msgstr "Ваш визит в [[COMPANY_NAME]]"
+
+# @ ab
+#: ../installer.php:37
+msgid ""
+"Dear [[CLIENT_NAME]].\n"
+"\n"
+"Thank you for choosing [[COMPANY_NAME]]. We hope you were satisfied with "
+"your [[SERVICE_NAME]].\n"
+"\n"
+"Thank you and we look forward to seeing you again soon.\n"
+"\n"
+"[[COMPANY_NAME]]\n"
+"[[COMPANY_PHONE]]\n"
+"[[COMPANY_WEBSITE]]"
+msgstr ""
+"Дорогой(ая) [[CLIENT_NAME]].\n"
+"\n"
+"Спасибо за выбор [[COMPANY_NAME]]. Мы надеемся, что Вы останетесь довольны "
+"сервисом [[SERVICE_NAME]].\n"
+"\n"
+"Спасибо Вам, ждем с нетерпением скорейшей встречи с Вами.\n"
+"\n"
+"[[COMPANY_NAME]]\n"
+"[[COMPANY_PHONE]]\n"
+"[[COMPANY_WEBSITE]]"
+
+# @ ab
+#: ../installer.php:41
+msgid "Your agenda for [[TOMORROW_DATE]]"
+msgstr "Ваш дневник на [[TOMORROW_DATE]]"
+
+# @ ab
+#: ../installer.php:42
+msgid ""
+"Hello.\n"
+"\n"
+"Your agenda for tomorrow is:\n"
+"\n"
+"[[NEXT_DAY_AGENDA]]"
+msgstr ""
+"Здравствуйте.\n"
+"\n"
+"Ваш дневник завтрашних встреч:\n"
+"\n"
+"[[NEXT_DAY_AGENDA]]"
+
+# @ ab
+#: ../installer.php:94
+msgid "Please select service: "
+msgstr "Пожалуйста, выберите сервис:"
+
+# @ ab
+#: ../installer.php:95
+msgid ""
+"Below you can find a list of available time slots for [[SERVICE_NAME]] by "
+"[[STAFF_NAME]].\n"
+"Click on a time slot to proceed with booking."
+msgstr ""
+"Ниже Вы можете найти список доступных временных интервалов для "
+"[[SERVICE_NAME]] от [[STAFF_NAME]].\n"
+"Нажмите на кнопку временного интервала, чтобы продолжить бронирование."
+
+# @ ab
+#: ../installer.php:96
+msgid ""
+"You selected a booking for [[SERVICE_NAME]] by [[STAFF_NAME]] at "
+"[[SERVICE_TIME]] on [[SERVICE_DATE]]. The price for the service is "
+"[[SERVICE_PRICE]].\n"
+"Please provide your details in the form below to proceed with booking."
+msgstr ""
+"Вы выбрали [[SERVICE_NAME]] от [[STAFF_NAME]] на [[SERVICE_TIME]] "
+"[[SERVICE_DATE]]. Цена за этот сервис [[SERVICE_PRICE]].\n"
+"Пожалуйста, введите свои данные, чтобы продолжить бронирование."
+
+# @ ab
+#: ../installer.php:97
+msgid "Please tell us how you would like to pay: "
+msgstr "Пожалуйста, скажите нам - как бы Вы хотели расплатиться:"
+
+# @ ab
+#: ../installer.php:98
+msgid ""
+"Thank you! Your booking is complete. An email with details of your booking "
+"has been sent to you."
+msgstr ""
+"Благодарим Вас! Бронирование завершено. Вам отослано электронное письмо с "
+"деталями Вашей брони."
+
+#: ../installer.php:99 ../updates.php:121
+msgid "The price for the service is [[SERVICE_PRICE]]."
+msgstr "Цена выбранного сервиса [[SERVICE_PRICE]]."
+
+# @ ab
+#: ../installer.php:102 ../updates.php:264
+msgid "Time"
+msgstr "Время"
+
+# @ ab
+#: ../installer.php:104 ../updates.php:266
+msgid "Payment"
+msgstr "Оплата"
+
+# @ ab
+#: ../installer.php:105 ../updates.php:267
+msgid "Done"
+msgstr "Готово"
+
+# @ ab
+#: ../installer.php:108 ../updates.php:270
+msgid "Employee"
+msgstr "Работник"
+
+# @ ab
+#: ../installer.php:109 ../updates.php:271
+msgid "I'm available on or after"
+msgstr "Пожалуйста, выберите дату"
+
+# @ ab
+#: ../installer.php:110 ../updates.php:272
+msgid "Start from"
+msgstr "Начать с"
+
+# @ ab
+#: ../installer.php:111 ../updates.php:273
+msgid "Finish by"
+msgstr "Закончить в"
+
+# @ ab
+#: ../installer.php:116 ../updates.php:56
+msgid "I will pay locally"
+msgstr "Я оплачу наличными"
+
+#: ../lib/AB_Controller.php:91
+msgid "Bookly: You do not have sufficient permissions to access this page."
+msgstr ""
+
+# @ ab
+#: ../lib/AB_Validator.php:15
+msgid "* Invalid email"
+msgstr "* Неверный электронный адрес"
+
+# @ ab
+#: ../lib/AB_Validator.php:18
+msgid "* Please tell us your email"
+msgstr "* Пожалуйста, введите свой электронный адрес"
+
+# @ ab
+#: ../lib/AB_Validator.php:30
+msgid "* Invalid phone number"
+msgstr "* Неверный телефонный номер"
+
+# @ ab
+#: ../lib/AB_Validator.php:33
+msgid "* Please tell us your phone"
+msgstr "* Пожалуйста, введите свой телефонный номер"
+
+# @ ab
+#: ../lib/AB_Validator.php:47
+msgid "is too long"
+msgstr "слишком длинное"
+
+# @ ab
+#: ../lib/AB_Validator.php:48
+msgid "is too short"
+msgstr "слишком короткое"
+
+# @ ab
+#: ../lib/AB_Validator.php:49
+msgid "characters max"
+msgstr "знаков максимум"
+
+# @ ab
+#: ../lib/AB_Validator.php:50
+msgid "characters min"
+msgstr "знаков минимум"
+
+# @ ab
+#: ../lib/AB_Validator.php:57
+msgid "* Please tell us your name"
+msgstr "* Пожалуйста, введите свое имя"
+
+# @ ab
+#: ../lib/AB_Validator.php:59 ../lib/AB_Validator.php:102
+#: ../lib/AB_Validator.php:121 ../lib/AB_Validator.php:131
+msgid "* Required"
+msgstr "* Обязательно"
+
+# @ ab
+#: ../lib/AB_Validator.php:71
+msgid "Invalid number"
+msgstr "Неправильный номер"
+
+# @ ab
+#: ../lib/AB_Validator.php:99
+msgid "Invalid date or time"
+msgstr "Неправильная дата/время"
+
+#: ../lib/entities/AB_Service.php:39
+#, php-format
+msgid "%d h"
+msgstr "%d ч"
+
+#: ../lib/entities/AB_Service.php:45
+#, php-format
+msgid "%d min"
+msgstr "%d мин"
+
+#: ../updates.php:277
+msgid "Notes (optional)"
+msgstr "Примечания (необязательно)"
